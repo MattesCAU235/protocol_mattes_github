@@ -547,11 +547,21 @@ final questions:
 
     closest genome reference radius: 95
 
-    closest genome ani: 97.07
+    closest genome ani: 97.07 (same species, if lower, same genus until 70%, if >99 same strain)
 
     closest genome af: 0.743
 
 
+multiqc stuff: 
 
+assembly length: 4.5
+ 
+contigs: 7
+
+CDS: 3883
+
+genes: 2495
+
+average read length: 251, after trimming 245
 
 
