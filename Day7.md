@@ -337,14 +337,9 @@ result:
 
 ![coryne](./resources/coryne_anvio.png)
 
+total: 5096
 data: core genes: 1019, SCCGs: 965, singletons: 3556, accessory genes: 498
 
-ani: alignment coverage: (corynebacterium_C_diphteriae:0.445782,(corynebacterium_C_stationis:0.432149,corynebacterium_C_glutamicum:0.432149)0:0.445782);
+tree with ani:
 
-ani: alignment_lengths: (corynebacterium_C_diphteriae:0.445782,(corynebacterium_C_stationis:0.432149,corynebacterium_C_glutamicum:0.432149)0:0.445782);
-
-ani: percent identity: (corynebacterium_C_diphteriae:0.501655,(corynebacterium_C_stationis:0.491273,corynebacterium_C_glutamicum:0.491273)0:0.501655);
-
-ani: hadamard: (corynebacterium_C_diphteriae:0.501655,(corynebacterium_C_stationis:0.491273,corynebacterium_C_glutamicum:0.491273)0:0.501655);
-
-ani: similarity_errors: (corynebacterium_C_glutamicum:0.400659,(corynebacterium_C_stationis:0.309039,corynebacterium_C_diphteriae:0.309039)0:0.400659);
+![coryne_tree](./resources/tree_coryne.png)
