@@ -554,7 +554,7 @@ final questions:
 
 multiqc stuff: 
 
-assembly length: 4.5
+assembly length: 4.5 Mbp
  
 contigs: 7
 
