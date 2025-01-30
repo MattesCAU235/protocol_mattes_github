@@ -131,6 +131,8 @@ complete viral genomes host prediction: make complte virome table: in 02 folder
 grep "Complete" */*.tsv > complete.tsv
 ```
 
+**What are the predicted hosts for your complete virus? are there multiple predicted hosts? are the hosts distantly related?
+
 BGR_131118_NODE_583_length_10977_cov_12.647043: host: d__Bacteria;p__Firmicutes_A;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__Anaerosphaera;s__Anaerosphaera multitolerans
 
 host genome id: RS_GCF_004006535.1
@@ -138,6 +140,21 @@ host genome id: RS_GCF_004006535.1
 BGR_140717_NODE_168_length_31258_cov_37.020094:
 
 host: d__Bacteria;p__Bacillota_A;c__Clostridia;o__Tissierellales;f__Peptoniphilaceae;g__;s__
+
+
+the hosts are distantly related, only one predicted host, only on genus level for 140717, species for 131118
+
+multiple hosts predicted: BGR_130305_NODE_1045_length_6212_cov_12.830599, not complete
+BGR_130708_NODE_639_length_10124_cov_15.139835, not complete
+
+Discuss what might be the reasons based on 1) biological reasoning, 2) the prediction method or 3) potential contamination in host MAG that migh result in such a prediction.
+
+biological reason: phages can have multiple hosts, phenotypic broad-host-range phages, no adaption to codon usage
+
+prediction method: is based on multiple things like k-mer frequency, CRISPR sequences and libraries. resulting score might not have been conclusive
+
+contamination: MAGs, can have prophages, could mess with k-mer frequency, contaminations in MAG assembly could also cause errors, without correct sequences, specific phage can not be assigned
+
 
 
 
